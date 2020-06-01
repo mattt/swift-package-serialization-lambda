@@ -1,7 +1,1 @@
-import XCTest
-
-import SwiftPackageSerializationLambdaTests
-
-var tests = [XCTestCaseEntry]()
-tests += SwiftPackageSerializationLambdaTests.allTests()
-XCTMain(tests)
+preconditionFailure("use `swift test --enable-test-discovery`")
